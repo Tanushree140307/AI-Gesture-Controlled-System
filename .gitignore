@@ -1,0 +1,64 @@
+
+# ==============================
+# Python cache and bytecode
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==============================
+# Virtual environments
+# ==============================
+venv/
+venv312/
+.venv/
+env/
+
+# ==============================
+# PyInstaller generated files
+# ==============================
+build/
+dist/
+*.manifest
+
+# ==============================
+# Training datasets and exports
+# ==============================
+gesture_data.csv
+*.csv
+
+# ==============================
+# Development and testing scripts
+# ==============================
+camera_test.py
+hand_detection.py
+landmark_coordinates.py
+
+# ==============================
+# IDE and editor settings
+# ==============================
+.vscode/
+.idea/
+*.code-workspace
+
+# ==============================
+# Logs and temporary files
+# ==============================
+*.log
+*.tmp
+*.bak
+
+# ==============================
+# Operating system files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Python package/build metadata
+# ==============================
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
